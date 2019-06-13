@@ -11,6 +11,11 @@ html,body
 	min-width: 320px;
 }
 
+.augment
+{
+	padding: 10px;
+}
+
 #disqus_thread 
 {
      position: relative;
