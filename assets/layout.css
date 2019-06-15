@@ -84,6 +84,9 @@ p {
 	margin-top: 0px;
 	vertical-align: top;
 	box-sizing: border-box;
+	display: inline-block;
+	width: auto;
+	padding: 0px;
 }
 
 .navbar li
@@ -198,7 +201,7 @@ p {
 
 .timestamp 
 {
-    background-color: #c22c2cd9;
+    background-color: #db3f3f;
     position: absolute;
     padding: 5px;
     box-sizing: border-box;
@@ -232,4 +235,32 @@ p {
 	{
     	font-size: 22px;
 	}
+}
+
+
+.social-container
+{
+	width: auto;
+    height: 100%;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 24px;
+    float: right;
+}
+
+.social-container img
+{
+    width: 34px;
+    height: 34px;
+}
+
+.social-container a
+{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	margin-left: 5px;
+
 }
